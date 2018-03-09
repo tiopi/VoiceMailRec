@@ -7,4 +7,4 @@ android:
 notifications:
     slack: osmarsfavoriteteam:DonXX1YhIre5zNHPwPq083Mv
 before_install:
-  - yes | sdkmanager --licenses
+  - sdkmanager --update && yes | sdkmanager --licenses
