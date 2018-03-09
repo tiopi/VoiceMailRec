@@ -33,10 +33,10 @@ android:
 before_install:
   - chmod +x gradlew
 install:
-  - sdkmanager --list || true # Debug / Observation
+  #- sdkmanager --list || true # Debug / Observation
   - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2" #&> /dev/null
   - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2" #&> /dev/null
-  - avdmanager --list || true  # Debug / Observation
+  #- avdmanager --list || true  # Debug / Observation
 before_script:
   - echo no | android create avd --force -n test -t android-${EMULATOR_API} --abi ${ABI}
   - emulator -avd test -no-audio -no-window &
