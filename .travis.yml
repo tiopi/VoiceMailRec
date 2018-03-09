@@ -31,3 +31,5 @@ android:
     - adb shell input keyevent 82 & 
 notifications:
     slack: osmarsfavoriteteam:DonXX1YhIre5zNHPwPq083Mv
+script:
+  - "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
