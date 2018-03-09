@@ -6,3 +6,5 @@ android:
     - extra 
 notifications:
     slack: osmarsfavoriteteam:DonXX1YhIre5zNHPwPq083Mv
+before_install:
+  - yes | sdkmanager "platforms;android-27"
