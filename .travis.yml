@@ -1,2 +1,8 @@
- notifications:
+language: android
+android:
+  components:
+    - build-tools-27.1.0
+    - android-27
+    - extra 
+notifications:
     slack: osmarsfavoriteteam:DonXX1YhIre5zNHPwPq083Mv
