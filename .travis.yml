@@ -3,7 +3,9 @@ android:
   components:
     - build-tools-27.0.3
     - android-27
-    - extra 
+    - extra
+    - sys-img-armeabi-v7a-android-26
+    - sys-img-armeabi-v7a-android-17 
 notifications:
     slack: osmarsfavoriteteam:DonXX1YhIre5zNHPwPq083Mv
 before_install:
